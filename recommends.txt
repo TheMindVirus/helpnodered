@@ -1,0 +1,7 @@
+# Start the server with `./nodered.sh start` or `service nodered start`
+# Maybe also browse to the dashboard with `nodered://localhost`
+node-red-node-wol
+node-red-contrib-vnc
+node-red-contrib-homekit-bridge
+
+
