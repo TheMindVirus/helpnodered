@@ -3,7 +3,7 @@ MicroPython Javascript Port built with Emscripten and Heavily Modified to work w
 
 # WARNING: This is Highly Experimental code and should not be deployed in production environments!
 
-![screenshot](https://github.com/TheMindVirus/blob/empython/screenshot.png)
+![screenshot](https://github.com/TheMindVirus/helpnodered/blob/empython/screenshot.png)
 
 # Notes
 * npm install <local absolute directory> is used to install it
