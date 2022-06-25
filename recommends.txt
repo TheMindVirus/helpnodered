@@ -3,5 +3,6 @@
 node-red-node-wol
 node-red-contrib-vnc
 node-red-contrib-homekit-bridge
-
+@node-red-contrib-themes/midnight-red
+@node-red-contrib-themes/oled
 

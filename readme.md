@@ -1,6 +1,8 @@
 # helpnodered
 Helper Scripts for running node-red-pi on Raspberry Pi OS
 
+![screenshot](/screenshot.png)
+
 # Installation
 Please follow the official installation guide at: https://nodered.org/docs/getting-started/raspberrypi \
 In some cases your version of nodejs or especially `npm` may need to be updated to the correct version.
@@ -19,3 +21,10 @@ Recommendations - [recommends.txt](/recommends.txt)
 ```
 - Simple plain text file arbitrarily containing recommended node-red modules and other notes
 ```
+Custom Node - [node-red-contrib-custom](/node-red-contrib-custom/package.json)
+```
+- Package structure for node-red custom nodes (as of 07:01 25/06/2022)
+- More information: https://nodered.org/docs/creating-nodes/first-node
+```
+
+![customnode](/customnode.png)
