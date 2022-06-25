@@ -1,0 +1,10 @@
+{
+    "name": "node-red-contrib-empython",
+    "node-red":
+    {
+        "nodes":
+        {
+            "empython": "empython.js"
+        }
+    }
+}

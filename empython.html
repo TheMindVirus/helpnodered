@@ -1,0 +1,24 @@
+<script>
+RED.nodes.registerType("empython",
+{
+    category: "function",
+    color: "#7f0000",
+    defaults: { name: { value: "" } },
+    inputs: 1,
+    outputs: 1,
+    icon: "empython.png",
+    label: () => { return this.name || "empython"; }
+});
+</script>
+
+<script type="text/html" data-template-name="empython">
+  <div class="form-row">
+    <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+    <input type="text" id="node-input-name" placeholder="Name">
+  </div>
+</script>
+
+<script type="text/html" data-help-name="empython">
+  <p>A node that transforms a string using python compiled with emscripten</p>
+  <div id="mp_js_stdout"></div><!--Instances May Conflict!-->
+</script>
