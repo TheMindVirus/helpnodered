@@ -6,7 +6,7 @@ MicroPython Javascript Port built with Emscripten and Heavily Modified to work w
 ![screenshot](https://github.com/TheMindVirus/helpnodered/blob/empython/screenshot.png)
 
 # Notes
-* npm install <local absolute directory> is used to install it
+* `npm install <local absolute directory>` is used to install it
 * Set httpStatic in settings.js to point to ~/.node-red/src (new folder)
 * Copy `firmware.wasm` to that directory
 * Clean up empython.js heavily!
